@@ -1,16 +1,22 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyWord, setKeyWord] = useState("");
+  let [keyword, setKeyword] = useState("");
+
+  function handResponse(response) {
+    console.log(response.data[0]);
+  }
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyWord}...`);
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=5399eea49f9baa9t4a0de908084b4of2`;
+    axios.get(apiUrl).then(handResponse);
   }
 
-  function handleKeyWord(event) {
-    setKeyWord(event.target.value);
+  function handleKeyword(event) {
+    setKeyword(event.target.value);
   }
 
   return (
@@ -18,7 +24,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input
           type="search"
-          onChange={handleKeyWord}
+          onChange={handleKeyword}
           placeholder="Introduce a word..."
         />
         <input type="submit" />
