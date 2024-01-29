@@ -15,7 +15,31 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This app was built by Maria Berbis and is open-sourced on GitHub.
+            This app was built by{" "}
+            <a
+              href="https://portfolio-mariaberbis.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Maria Berbis
+            </a>{" "}
+            , is open-sourced on{" "}
+            <a
+              href="https://github.com/MariaBerbis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://app.netlify.com/teams/mariaberbis/overview"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+            .
           </small>
         </footer>
       </div>
