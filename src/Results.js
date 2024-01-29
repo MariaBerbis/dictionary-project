@@ -1,5 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
@@ -7,7 +8,7 @@ export default function Results(props) {
       <div className="Results">
         <section>
           <h1 className="text-capitalize">{props.results.word}</h1>
-          <p>/{props.results.phonetic}/</p>
+          <p className="phonetic">/{props.results.phonetic}/</p>
         </section>
         {props.results.meanings.map(function (meaning, index) {
           return (

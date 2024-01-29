@@ -31,6 +31,9 @@ export default function Dictionary() {
             placeholder="Introduce a word..."
           />
         </form>
+        <div className="hint">
+          Suggested searchs: Sky, philosophy, plant, sunset...{" "}
+        </div>
       </section>
       <Results results={results} />
     </div>

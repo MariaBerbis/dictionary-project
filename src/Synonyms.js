@@ -1,13 +1,13 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
-  console.log(props.synonyms);
   if (props.synonyms) {
     return (
       <ul className="Synonyns">
         {props.synonyms.map(function (synonym, index) {
           return (
-            <li key={index} className="text-capitalize">
+            <li key={index} className="text-capitalize Synonyms">
               {synonym}
             </li>
           );
