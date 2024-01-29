@@ -5,13 +5,15 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h1>{props.results.word}</h1>
-        <p>/{props.results.phonetic}/</p>
+        <section>
+          <h1 className="text-capitalize">{props.results.word}</h1>
+          <p>/{props.results.phonetic}/</p>
+        </section>
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>

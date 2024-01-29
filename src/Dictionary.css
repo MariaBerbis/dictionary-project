@@ -1,3 +1,17 @@
-.Dictionary {
-    background-color: white;
+.Dictionary section {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 30px;
+}
+
+.Dictionary input {
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.Dictionary ul {
+    list-style-type: none;
 }
