@@ -1,13 +1,17 @@
 .synonyms {
-    color: purple;
-    font-size: 14px;
+    color: #01555a;
+    font-size: 13px;
+    font-weight: 500;
     margin-top: 30px;
     padding: 0;
 }
 
 .synonyms li {
-    text-transform: capitalize;
-    list-style-type: none;
+    border: 1px solid #01555a;
+    border-radius: 16px;
     display: inline-block;
-    padding: 10px 20px 10px 0;
+    list-style-type: none;
+    margin: 6px 4px;
+    padding: 0 12px;
+    text-transform: capitalize;
 }

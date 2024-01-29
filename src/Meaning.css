@@ -1,7 +1,9 @@
 .definition {
+    margin-top: 10px;
     opacity: 0.9;
 }
 
 .example {
     font-size: 15px;
+    margin-top: 10px;
 }
