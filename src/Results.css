@@ -1,3 +1,10 @@
 .phonetic {
+    font-weight: bold;
+    font-size: 20px;
     opacity: 0.7;
+
+}
+
+.word {
+    font-weight: bold;
 }

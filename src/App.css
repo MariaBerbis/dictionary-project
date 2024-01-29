@@ -5,6 +5,7 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-header {
@@ -17,7 +18,8 @@
   font-size: 50px;
   font-weight: 900;
   margin-bottom: 0;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  letter-spacing: 10px;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
   text-align: center;
 }
 

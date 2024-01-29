@@ -1,3 +1,13 @@
-.Synonyms {
-    opacity: 0.7;
+.synonyms {
+    color: purple;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.synonyms li {
+    text-transform: capitalize;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px 10px 0;
 }

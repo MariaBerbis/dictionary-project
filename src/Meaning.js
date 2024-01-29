@@ -7,10 +7,12 @@ export default function Meaning(props) {
     return (
       <div className="Meaning">
         <h4 className="text-capitalize">{props.meaning.partOfSpeech}</h4>
-        <p className="text-capitalize definition">
+        <p className="definition">
           {props.meaning.definition}
           <br />
-          <em>"{props.meaning.example}"</em>
+          <div className="example">
+            <em>"{props.meaning.example}"</em>
+          </div>
           <Synonyms synonyms={props.meaning.synonyms} />
         </p>
       </div>
@@ -19,7 +21,7 @@ export default function Meaning(props) {
     return (
       <div>
         <h4 className="text-capitalize">{props.meaning.partOfSpeech}</h4>
-        <p className="text-capitalize definition">
+        <p className="definition">
           {props.meaning.definition}
           <Synonyms synonyms={props.meaning.synonyms} />
         </p>

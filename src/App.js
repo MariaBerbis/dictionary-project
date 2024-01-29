@@ -7,8 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>LEXIPIC DICTIONARY</h1>
           <img src={logo} className="App-logo img-fluid mt-0" alt="logo" />
+          <h1>LEXIPIC DICTIONARY</h1>
         </header>
         <main>
           <Dictionary />

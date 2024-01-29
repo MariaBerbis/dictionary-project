@@ -6,6 +6,11 @@
     padding: 30px;
 }
 
+.Dictionary h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .Dictionary input {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -15,10 +20,8 @@
 }
 
 .Dictionary .hint {
+    padding: 5px;
     font-size: 11px;
     margin-top: 5px;
-}
-
-.Dictionary ul {
-    list-style-type: none;
+    opacity: 0.9;
 }
