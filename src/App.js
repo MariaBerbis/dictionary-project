@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid mt-0" alt="logo" />
-          <h1>LEXIPIC DICTIONARY</h1>
+          <h1>LEXIPIC</h1>
         </header>
         <main>
           <Dictionary />
@@ -22,7 +22,7 @@ export default function App() {
               rel="noopener noreferrer"
             >
               Maria Berbis
-            </a>{" "}
+            </a>
             , is open-sourced on{" "}
             <a
               href="https://github.com/MariaBerbis"
