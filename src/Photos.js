@@ -3,7 +3,7 @@ import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
-    const limitedPhotos = props.photos.slice(0, 6);
+    const limitedPhotos = props.photos.slice(0, 9);
     return (
       <section className="Photos">
         <div className="row">
